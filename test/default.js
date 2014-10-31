@@ -19,7 +19,7 @@
 		});	
 
 		it('should detect a focal point on image 1', function(done) {
-			this.timeout(20000);
+			this.timeout(60000);
 
 			fs.readFile(__dirname+'/image1.jpg', function(err, data) {
 				if (err) done(err);
@@ -34,7 +34,7 @@
 		});		
 
 		it('should detect a focal point on image 2', function(done) {
-			this.timeout(20000);
+			this.timeout(60000);
 
 			fs.readFile(__dirname+'/image2.jpg', function(err, data) {
 				if (err) done(err);
