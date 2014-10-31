@@ -1,0 +1,35 @@
+{
+      "name"                        : "ee-face-detection"
+    , "description"                 : "Detects faces in images and computes a focal point for the image. Helps you crop the right part of the image"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-face-detection"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-face-detection.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-face-detection/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-log"                  : "0.2.x"
+        , "ee-project"              : "0.2.x"
+        , "opencv"                  : "1.0.x"
+        , "ee-image-worker"         : "0.2.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["face-detection", "image", "cropping", "jpeg", "png", "webp", "opencv"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
