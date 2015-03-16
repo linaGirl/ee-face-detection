@@ -1,9 +1,9 @@
 {
       "name"                        : "ee-face-detection"
     , "description"                 : "Detects faces in images and computes a focal point for the image. Helps you crop the right part of the image"
-    , "version"                     : "0.1.1"
+    , "version"                     : "0.1.2"
     , "homepage"                    : "https://github.com/eventEmitter/ee-face-detection"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
     , "licence"                     : "mit"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/ee-face-detection.git"
@@ -21,7 +21,7 @@
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-project"              : "0.2.x"
-        , "opencv"                  : "1.0.x"
+        , "opencv"                  : "3.0.x"
         , "ee-image-worker"         : "0.2.x"
     }
     , "devDependencies": {
