@@ -1,5 +1,7 @@
 # ee-face-detection
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-face-detection.svg)](https://greenkeeper.io/)
+
 Detects faces in images and returns a focal point. Is used to crop the right part of an image. You should use this in conjunction with the ee-image-worker package which has support for cropping using focal points.
 
 The face-detector runs in a separate process & is multithreaded. Its really slow because it does a set of different detections on each image :(
