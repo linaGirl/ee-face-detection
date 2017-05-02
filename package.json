@@ -16,16 +16,16 @@
         "url"                       : "https://github.com/eventEmitter/ee-face-detection/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.2.x"
-        , "ee-event-emitter"        : "0.3.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
+          "ee-class"                : "~1.4.0"
+        , "ee-event-emitter"        : "~1.0.1"
+        , "ee-types"                : "~2.1.2"
+        , "ee-log"                  : "~2.0.2"
         , "ee-project"              : "0.2.x"
-        , "opencv"                  : "3.0.x"
+        , "opencv"                  : "~6.0.0"
         , "ee-image-worker"         : "0.2.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "~3.3.0"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["face-detection", "image", "cropping", "jpeg", "png", "webp", "opencv"]
